@@ -1,29 +1,28 @@
 import "./App.css";
-import Dresscode from "./Routes/Dresscode.js";
-import Gifts from "./Routes/Gifts.js";
-import AboutLocation from "./Routes/AboutLocation";
-import ContactInfo from "./Routes/ContactInfo";
-import TimeAndPlace from "./Routes/TimeAndPlace";
+import NavBar from "./Components/NavBar";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Routes/Home";
+import ContactInfo from "./Routes/ContactInfo";
+import AboutLocation from "./Routes/AboutLocation";
+import Dresscode from "./Routes/Dresscode";
+import Gifts from "./Routes/Gifts";
+import TimeAndPlace from "./Routes/TimeAndPlace";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App__header">
-        <div className="App_header-textcontainer">
-          <h1>Marcus &#38; Sara </h1>
-          <h2>13 Aug 2022</h2>
-        </div>
-      </header>
-      <div className="App__Content">
-        <Home />
-        <TimeAndPlace />
-        <AboutLocation />
-        <Dresscode />
-        <Gifts />
-        <ContactInfo />
+    <>
+      <NavBar />
+      <div className="pages">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<ContactInfo />} />
+          <Route path="/location" element={<AboutLocation />} />
+          <Route path="/dresscode" element={<Dresscode />} />
+          <Route path="/gifts" element={<Gifts />} />
+          <Route path="/timeplace" element={<TimeAndPlace />} />
+        </Routes>
       </div>
-    </div>
+    </>
   );
 }
 
