@@ -3,6 +3,7 @@ import Dresscode from "./Routes/Dresscode.js";
 import Gifts from "./Routes/Gifts.js";
 import AboutLocation from "./Routes/AboutLocation";
 import ContactInfo from "./Routes/ContactInfo";
+import TimeAndPlace from "./Routes/TimeAndPlace";
 
 function App() {
   return (
@@ -17,12 +18,7 @@ function App() {
         <p>Marcus and Sara are having a wedding. </p>
       </div>
       <div className="App__Content">
-        <div className="App__Content-section">
-          <h3 className="Content__Section-title">Time and Place</h3>
-          <p className="Content__Section-text">
-            Skoklostervägen 16, 74694, Häggeby. The latest 15:00.
-          </p>
-        </div>
+        <TimeAndPlace />
         <AboutLocation />
         <Dresscode />
         <Gifts />
