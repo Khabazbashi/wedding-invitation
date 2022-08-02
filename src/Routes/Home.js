@@ -1,8 +1,10 @@
 function Home() {
   return (
-    <div className="App__Intro">
-      <p>Marcus and Sara are having a wedding. </p>
-      <p>Vi ser fram emot att träffa er på bröllopet!</p>
+    <div className="pages__container">
+      <p className="pages__text">Marcus and Sara are having a wedding. </p>
+      <p className="pages__text">
+        Vi ser fram emot att träffa er på bröllopet!
+      </p>
     </div>
   );
 }
