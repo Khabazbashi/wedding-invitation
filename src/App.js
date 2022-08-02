@@ -4,8 +4,10 @@ function App() {
   return (
     <div className="App">
       <header className="App__header">
-        <h1>Marcus &#38; Sara </h1>
-        <h2>13 Aug 2022</h2>
+        <div className="App_header-textcontainer">
+          <h1>Marcus &#38; Sara </h1>
+          <h2>13 Aug 2022</h2>
+        </div>
       </header>
       <div className="App__Intro">
         <p>Marcus and Sara are having a wedding. </p>
