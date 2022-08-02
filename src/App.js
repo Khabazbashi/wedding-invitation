@@ -1,4 +1,5 @@
 import "./App.css";
+import Dresscode from "./Routes/Dresscode.js";
 
 function App() {
   return (
@@ -25,10 +26,7 @@ function App() {
             Bring swiming suit. Let us know if any allergies.{" "}
           </p>
         </div>
-        <div className="App__Content-section">
-          <h3 className="Content__Section-title">Dresscode</h3>
-          <p className="Content__Section-text">Kavaj </p>
-        </div>
+        <Dresscode />
         <div className="App__Content-section">
           <h3 className="Content__Section-title">Gifts</h3>
           <p className="Content__Section-text">
