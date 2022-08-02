@@ -8,32 +8,41 @@ function App() {
         <h2>13 Aug 2022</h2>
       </header>
       <div className="App__Intro">
-        <p>Test </p>
+        <p>Marcus and Sara are having a wedding. </p>
       </div>
       <div className="App__Content">
         <div className="App__Content-section">
-          <h3>Time and Place</h3>
-          <p>Test </p>
+          <h3 className="Content__Section-title">Time and Place</h3>
+          <p className="Content__Section-text">
+            Skoklostervägen 16, 74694, Häggeby. The latest 15:00.
+          </p>
         </div>
         <div className="App__Content-section">
-          <h3>About the Place</h3>
-          <p>Test </p>
+          <h3 className="Content__Section-title">About the Place</h3>
+          <p className="Content__Section-text">
+            Bring swiming suit. Let us know if any allergies.{" "}
+          </p>
         </div>
         <div className="App__Content-section">
-          <h3>Dresscode</h3>
-          <p>Test </p>
+          <h3 className="Content__Section-title">Dresscode</h3>
+          <p className="Content__Section-text">Kavaj </p>
         </div>
         <div className="App__Content-section">
-          <h3>Gifts</h3>
-          <p>Test </p>
+          <h3 className="Content__Section-title">Gifts</h3>
+          <p className="Content__Section-text">
+            Vi önskar inte några presenter, men om man vill får man gärna bidra
+            till smekmånad.
+          </p>
         </div>
         <div className="App__Content-section">
-          <h3>ContactInfo</h3>
-          <p>Test </p>
+          <h3 className="Content__Section-title">ContactInfo</h3>
+          <p className="Content__Section-text">
+            Sara Khabazbashi 0704176182, Marcus Lindström 0760436199{" "}
+          </p>
         </div>
       </div>
       <div className="App__Outro">
-        <p>Test </p>
+        <p>Vi ser fram emot att träffa er på bröllopet!</p>
       </div>
     </div>
   );
