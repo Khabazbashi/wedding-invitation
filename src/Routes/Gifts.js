@@ -1,8 +1,8 @@
 function Gifts() {
   return (
-    <div className="App__Content-section">
-      <h3 className="Content__Section-title">Gifts</h3>
-      <p className="Content__Section-text">
+    <div className="pages__container">
+      <h3 className="pages__title">Presenter</h3>
+      <p className="pages__text">
         Vi önskar inte några presenter, men om man vill får man gärna bidra till
         smekmånad.
       </p>

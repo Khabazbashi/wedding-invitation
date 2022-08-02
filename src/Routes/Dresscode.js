@@ -1,8 +1,8 @@
 function Dresscode() {
   return (
-    <div className="App__Content-section">
-      <h3 className="Content__Section-title">Dresscode</h3>
-      <p className="Content__Section-text">Kavaj </p>
+    <div className="pages__container">
+      <h3 className="pages__title">Klädkod</h3>
+      <p className="pages__text">Kavaj </p>
     </div>
   );
 }
