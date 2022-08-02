@@ -1,5 +1,6 @@
 import "./App.css";
 import Dresscode from "./Routes/Dresscode.js";
+import Gifts from "./Routes/Gifts.js";
 
 function App() {
   return (
@@ -27,13 +28,8 @@ function App() {
           </p>
         </div>
         <Dresscode />
-        <div className="App__Content-section">
-          <h3 className="Content__Section-title">Gifts</h3>
-          <p className="Content__Section-text">
-            Vi önskar inte några presenter, men om man vill får man gärna bidra
-            till smekmånad.
-          </p>
-        </div>
+        <Gifts />
+
         <div className="App__Content-section">
           <h3 className="Content__Section-title">ContactInfo</h3>
           <p className="Content__Section-text">
