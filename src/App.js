@@ -4,6 +4,7 @@ import Gifts from "./Routes/Gifts.js";
 import AboutLocation from "./Routes/AboutLocation";
 import ContactInfo from "./Routes/ContactInfo";
 import TimeAndPlace from "./Routes/TimeAndPlace";
+import Home from "./Routes/Home";
 
 function App() {
   return (
@@ -14,18 +15,13 @@ function App() {
           <h2>13 Aug 2022</h2>
         </div>
       </header>
-      <div className="App__Intro">
-        <p>Marcus and Sara are having a wedding. </p>
-      </div>
       <div className="App__Content">
+        <Home />
         <TimeAndPlace />
         <AboutLocation />
         <Dresscode />
         <Gifts />
         <ContactInfo />
-      </div>
-      <div className="App__Outro">
-        <p>Vi ser fram emot att träffa er på bröllopet!</p>
       </div>
     </div>
   );
