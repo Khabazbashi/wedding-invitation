@@ -2,6 +2,7 @@ import "./App.css";
 import Dresscode from "./Routes/Dresscode.js";
 import Gifts from "./Routes/Gifts.js";
 import AboutLocation from "./Routes/AboutLocation";
+import ContactInfo from "./Routes/ContactInfo";
 
 function App() {
   return (
@@ -25,13 +26,7 @@ function App() {
         <AboutLocation />
         <Dresscode />
         <Gifts />
-
-        <div className="App__Content-section">
-          <h3 className="Content__Section-title">ContactInfo</h3>
-          <p className="Content__Section-text">
-            Sara Khabazbashi 0704176182, Marcus Lindström 0760436199{" "}
-          </p>
-        </div>
+        <ContactInfo />
       </div>
       <div className="App__Outro">
         <p>Vi ser fram emot att träffa er på bröllopet!</p>
