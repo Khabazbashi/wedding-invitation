@@ -10,24 +10,24 @@ function App() {
       <div className="App__Intro">
         <p>Test </p>
       </div>
-      <div className="App__content">
-        <div className="App__content-section">
+      <div className="App__Content">
+        <div className="App__Content-section">
           <h3>Time and Place</h3>
           <p>Test </p>
         </div>
-        <div className="App__content-section">
+        <div className="App__Content-section">
           <h3>About the Place</h3>
           <p>Test </p>
         </div>
-        <div className="App__content-section">
+        <div className="App__Content-section">
           <h3>Dresscode</h3>
           <p>Test </p>
         </div>
-        <div className="App__content-section">
+        <div className="App__Content-section">
           <h3>Gifts</h3>
           <p>Test </p>
         </div>
-        <div className="App__content-section">
+        <div className="App__Content-section">
           <h3>ContactInfo</h3>
           <p>Test </p>
         </div>
