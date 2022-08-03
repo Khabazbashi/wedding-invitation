@@ -1,11 +1,15 @@
 function ContactInfo() {
   return (
     <div className="pages__container">
-      <h3 className="pages__title">ContactInfo</h3>
-      <ul className="pages__list">
-        <li>Marcus Lindström XXXX-XXXX</li>
-        <li>Sara Khabazbashi XXXX-XXXX</li>
-      </ul>
+      <div className="pages__header">
+        <h1 className="pages__title">Kontakt</h1>
+      </div>
+      <div className="pages__body">
+        <ul className="pages__list">
+          <li className="pages__infotext">Marcus Lindström XXXX-XXXX</li>
+          <li className="pages__infotext">Sara Khabazbashi XXXX-XXXX</li>
+        </ul>
+      </div>
     </div>
   );
 }
