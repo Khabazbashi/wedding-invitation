@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 body {
@@ -13,18 +14,36 @@ body {
   color: black;
   text-align: center;
   font-size: 3.5rem;
-  margin-top: 10%;
 }
+
 .pages__container {
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin: auto;
 }
+
+.pages__header {
+  background-image: url("./img/IMG_3655Copy.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 30vh;
+  width: 100vw;
+  z-index: 0;
+}
+
 .pages__title {
   font-family: "Homemade Apple", cursive;
+  color: white;
   font-size: 30px;
-  margin-bottom: 1rem;
+  margin: auto;
+}
+
+.pages__body {
+  width: 80%;
+  margin: 10% auto 10% auto;
 }
 
 .pages__subtitle {
