@@ -1,10 +1,14 @@
 function Home() {
   return (
     <div className="pages__container">
-      <p className="pages__text">Marcus and Sara are having a wedding. </p>
-      <p className="pages__text">
-        Vi ser fram emot att träffa er på bröllopet!
-      </p>
+      <div className="pages__header">
+        <h1 className="pages__title">Hem</h1>
+      </div>
+      <div className="pages__body">
+        <p className="pages__infotext">
+          Vi ser fram emot att träffa er på bröllopet!
+        </p>
+      </div>
     </div>
   );
 }
