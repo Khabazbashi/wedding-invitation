@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Uchen&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 body {
@@ -11,5 +14,62 @@ body {
   color: black;
   text-align: center;
   font-size: 3.5rem;
-  margin-top: 10%;
+}
+
+.pages__container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.pages__header {
+  background-image: url("./img/IMG_3655Copy.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 25vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.pages__title {
+  font-family: "Homemade Apple", cursive;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+}
+
+.pages__body {
+  width: 80%;
+  margin: 10% auto 10% auto;
+}
+
+.pages__subtitle {
+  font-family: "Uchen", serif;
+  font-size: 25px;
+}
+
+.pages__infotext {
+  font-size: 14pt;
+  font-family: Helvetica;
+  color: var(--font-color);
+  margin-bottom: 3rem;
+}
+
+.pages__text {
+  margin-bottom: 3rem;
+  background: var(--bg-color);
+  color: var(--font-color);
+  font-family: Helvetica;
+  font-size: 14pt;
+  hyphens: auto;
+  image-rendering: high-quality;
+  line-height: 1.6;
+  margin: auto;
+  padding: 0 1em;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  width: min(60ch, calc(100% - 2em));
 }

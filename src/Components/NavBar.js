@@ -10,46 +10,12 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink to="/" className="nav-logo">
-            Bröllop
-          </NavLink>
+          <NavLink to="/" className="nav-logo"></NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink to="/" className="nav-links" onClick={handleClick}>
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to="/contact"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Kontakt
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to="/location"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Plats
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to="/dresscode"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Dresscode
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/gifts" className="nav-links" onClick={handleClick}>
-                Presenter
+                Hem
               </NavLink>
             </li>
             <li className="nav-item">
@@ -58,7 +24,41 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Tid, Plats
+                Tid &amp; Plats
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/dresscode"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Klädkod
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/gifts" className="nav-links" onClick={handleClick}>
+                Presenter
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                to="/location"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Om herrgården
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                to="/contact"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Kontakt
               </NavLink>
             </li>
           </ul>
