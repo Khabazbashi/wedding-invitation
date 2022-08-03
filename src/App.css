@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Uchen&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +14,43 @@ body {
   text-align: center;
   font-size: 3.5rem;
   margin-top: 10%;
+}
+.pages__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.pages__title {
+  font-family: "Homemade Apple", cursive;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.pages__subtitle {
+  font-family: "Uchen", serif;
+  font-size: 25px;
+}
+
+.pages__infotext {
+  font-size: 14pt;
+  font-family: Helvetica;
+  color: var(--font-color);
+  margin-bottom: 3rem;
+}
+
+.pages__text {
+  margin-bottom: 3rem;
+  background: var(--bg-color);
+  color: var(--font-color);
+  font-family: Helvetica;
+  font-size: 14pt;
+  hyphens: auto;
+  image-rendering: high-quality;
+  line-height: 1.6;
+  margin: auto;
+  padding: 0 1em;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  width: min(60ch, calc(100% - 2em));
 }
