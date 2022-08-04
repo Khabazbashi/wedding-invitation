@@ -24,21 +24,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Tid &amp; Plats
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to="/dresscode"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Klädkod
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/gifts" className="nav-links" onClick={handleClick}>
-                Presenter
+                Hitta Hit
               </NavLink>
             </li>
 
