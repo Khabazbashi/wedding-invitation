@@ -55,21 +55,32 @@ body {
   font-size: 14pt;
   font-family: Helvetica;
   color: var(--font-color);
+  background: var(--bg-color);
   margin-bottom: 3rem;
+  line-height: 1.6;
+  hyphens: auto;
 }
 
 .pages__text {
+  font-size: 20pt;
+  text-transform: uppercase;
   margin-bottom: 3rem;
-  background: var(--bg-color);
-  color: var(--font-color);
-  font-family: Helvetica;
+}
+
+.pages__listitem {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+.pages__link {
+  text-decoration: none;
+  color: black;
   font-size: 14pt;
-  hyphens: auto;
-  image-rendering: high-quality;
+  font-family: Helvetica;
+  color: var(--font-color);
+  background: var(--bg-color);
   line-height: 1.6;
-  margin: auto;
-  padding: 0 1em;
-  text-align: justify;
-  text-rendering: optimizeLegibility;
-  width: min(60ch, calc(100% - 2em));
+  hyphens: auto;
 }
