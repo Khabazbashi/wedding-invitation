@@ -30,11 +30,7 @@ function Home() {
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJmrkI6dKz8iTMiITtSE0aFcf-D5b4RWIWGMXCUAtWmfpDPriGa0UTNJAXG0fJL8nVOY&usqp=CAU" />
         </div>
         <h1 className="pages__subtitle">Gåvor</h1>
-        <p className="pages__infotext">
-          Er närvaro är allt vi önskar oss. Men vill ni ändå uppmärksamma vår
-          dag med en gåva skulle det föreslagsvis vara ett litet bidrag till vår
-          bröllopsresa.
-        </p>
+        <p className="pages__infotext">Er närvaro är allt vi önskar oss!</p>
       </div>
     </div>
   );

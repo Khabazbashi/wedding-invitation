@@ -12,11 +12,11 @@ function AboutLocation() {
           bara för att packa upp och ställa in er i era rum.
         </p>
         <h2 className="pages__subtitle">Att göra </h2>
-        <p className="pages__todoitem">Biljardbord</p>
-        <p className="pages__todoitem">Tennisbana</p>
-        <p className="pages__todoitem">Basket hoop</p>
         <p className="pages__todoitem">Fria vikter och yogamatta</p>
         <p className="pages__todoitem">Cyklar</p>
+        <p className="pages__todoitem">Basket hoop</p>
+        <p className="pages__todoitem">Tennisbana</p>
+        <p className="pages__todoitem">Biljardbord</p>
         <p className="pages__todoitem">Brädspel</p>
         <p className="pages__todoitem">Privat brygga</p>
         <p className="pages__todoitem">Badtunna utomhus</p>

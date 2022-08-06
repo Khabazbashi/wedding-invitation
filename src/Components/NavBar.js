@@ -20,7 +20,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/location"
+                to="/timeplace"
                 className="nav-links"
                 onClick={handleClick}
               >
