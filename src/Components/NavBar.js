@@ -20,7 +20,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/timeplace"
+                to="/location"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -29,11 +29,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <NavLink
-                to="/location"
-                className="nav-links"
-                onClick={handleClick}
-              >
+              <NavLink to="/about" className="nav-links" onClick={handleClick}>
                 Om herrgården
               </NavLink>
             </li>

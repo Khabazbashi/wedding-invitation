@@ -1,3 +1,5 @@
+import React from "react";
+
 function Home() {
   return (
     <div className="pages__container">
@@ -5,10 +7,17 @@ function Home() {
         <h1 className="pages__title">Marcus &amp; Sara </h1>
       </div>
       <div className="pages__body">
-        <p className="pages__text">Varmt välkommen till vårt bröllop</p>
+        <h2 className="pages__sectiontitle"> Välkomna på bröllop</h2>
+        <p className="pages__text">
+          Om en vecka gifter vi oss på Skadevi Gård och vi önskar dela dagen med
+          er. Hoppas att ni kommer och firar vår dag med oss.
+        </p>
+        <div className="pages__divider">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJmrkI6dKz8iTMiITtSE0aFcf-D5b4RWIWGMXCUAtWmfpDPriGa0UTNJAXG0fJL8nVOY&usqp=CAU" />
+        </div>
         <h2 className="pages__subtitle"> Tid</h2>
         <p className="pages__infotext">
-          13 augusti <br />
+          13 Augusti <br />
           15:00
         </p>
         <h2 className="pages__subtitle"> Plats</h2>
@@ -17,13 +26,14 @@ function Home() {
         </p>
         <h1 className="pages__subtitle">Klädsel</h1>
         <p className="pages__infotext">Sommarfin</p>
-        <h1 className="pages__subtitle">Presenter</h1>
+        <div className="pages__divider">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJmrkI6dKz8iTMiITtSE0aFcf-D5b4RWIWGMXCUAtWmfpDPriGa0UTNJAXG0fJL8nVOY&usqp=CAU" />
+        </div>
+        <h1 className="pages__subtitle">Gåvor</h1>
         <p className="pages__infotext">
-          Vi önskar inte några presenter, men om man vill får man gärna bidra
-          till vår smekmånad.
-        </p>
-        <p className="pages__text">
-          Vi ser fram emot att träffa er på bröllopet!
+          Er närvaro är allt vi önskar oss. Men vill ni ändå uppmärksamma vår
+          dag med en gåva skulle det föreslagsvis vara ett litet bidrag till vår
+          bröllopsresa.
         </p>
       </div>
     </div>
