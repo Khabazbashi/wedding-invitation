@@ -1,7 +1,7 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
 
-function FindUs() {
+function Location() {
   const Marker = () => (
     <>
       <div
@@ -48,16 +48,23 @@ function FindUs() {
       </div>
       <div className="pages__body">
         <h2 className="pages__subtitle">
-          {" "}
           Skoklostervägen 16 <br />
-          74694 Häggeby
+          74694 Häggeby <tab></tab>
+          <a href="https://www.google.com/maps/dir//Skoklosterv%C3%A4gen+16,+746+94+H%C3%A4ggeby/@59.6789077,17.5314858,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x465fb15649dcfef3:0x2eac0a182427d24c!2m2!1d17.5336745!2d59.678905!3e0?hl=sv">
+            <img src="https://www.nicepng.com/png/full/128-1289813_png-black-and-white-download-location-clipart-pin.png"></img>
+          </a>
         </h2>
+        <div className="pages__pin"></div>
 
         <p className="pages__infotext">
           <br />
-          Om ni har svårt att ta er till oss, hör av er så kan vi se ifall ni
-          kan samåka med någon av våra andra gäster.
+          Hör av er om ni har svårt att ta er till oss från Stockholm. Vi
+          hjälper mer än gärna till och kan också höra ifall ni kan samåka med
+          någon av våra andra gäster.
         </p>
+        <div className="pages__divider">
+          <img src="https://i.pinimg.com/474x/02/db/9c/02db9cfad7c781b0fd7c1c152a211d8f.jpg" />
+        </div>
       </div>
       <div style={{ height: "100vh", width: "100%" }}>
         <GoogleMapReact
@@ -72,4 +79,4 @@ function FindUs() {
   );
 }
 
-export default FindUs;
+export default Location;

@@ -24,7 +24,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Hitta Hit
+                Hitta hit
               </NavLink>
             </li>
 

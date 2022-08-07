@@ -28,6 +28,9 @@ function ContactInfo() {
             </a>
           </li>
         </ul>
+        <div className="pages__divider">
+          <img src="https://i.pinimg.com/474x/70/57/44/7057443a8c04006983551c91496f954a.jpg" />
+        </div>
       </div>
     </div>
   );
