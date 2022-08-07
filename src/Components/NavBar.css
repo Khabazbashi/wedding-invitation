@@ -1,7 +1,4 @@
 .navbar {
-  /* background-image: url("../img/IMG_3655Copy.jpg");
-  background-size: cover;
-  background-position: 23% 23%; */
   height: 80px;
   width: 100vw;
   display: flex;
@@ -11,16 +8,17 @@
   position: sticky;
   top: 0;
   z-index: 20;
+  flex-grow: 1;
 }
 
 .nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 80px;
-  max-width: 1500px;
   background: rgba(0, 0, 0, 0.88);
+  flex-grow: 1;
 }
 
 .nav-logo {

@@ -42,26 +42,26 @@ body {
 .pages__title {
   font-family: "Homemade Apple", cursive;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   margin: auto;
 }
 
 .pages__body {
   display: flex;
   flex-direction: column;
-  width: 85%;
+  width: 60%;
   margin: 10% auto 10% auto;
 }
 
 .pages__sectiontitle {
   font-family: "Homemade Apple", cursive;
-  font-size: 19px;
+  font-size: 35px;
   margin-top: 1.5rem;
 }
 
 .pages__subtitle {
   font-family: "Uchen", serif;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .pages__infotext,
@@ -69,17 +69,13 @@ body {
 .pages__todoitem,
 .pages__link {
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 20pt;
   font-family: Helvetica;
   color: var(--font-color);
   background: var(--bg-color);
   line-height: 1.6;
   hyphens: auto;
-  margin-bottom: 2rem;
-}
-
-.pages__text {
-  text-align: justify;
+  margin-bottom: 5rem;
 }
 
 .pages__link {
@@ -110,12 +106,12 @@ body {
 .pages__divider180 img,
 .pages__divider-xs {
   object-fit: cover;
-  width: 70%;
-  height: 5rem;
+  width: 45%;
+  height: 6rem;
   margin: auto;
 }
 .pages__divider-xs img {
-  width: 40%;
+  width: 20%;
 }
 
 .pages__divider180 img {
@@ -127,5 +123,137 @@ body {
 }
 
 .pages__subtitle img {
-  width: 5%;
+  width: 2%;
+}
+
+@media screen and (max-width: 960px) {
+  * {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+
+  body {
+    background-color: var(--white);
+  }
+
+  .background {
+    position: absolute;
+    background-image: url("./img/IMG_3655Copy.jpg");
+    top: 0;
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+    z-index: 0;
+  }
+
+  .pages {
+    color: black;
+    text-align: center;
+  }
+
+  .pages__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pages__header {
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .pages__title {
+    font-family: "Homemade Apple", cursive;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+  }
+
+  .pages__body {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 10% auto 10% auto;
+  }
+
+  .pages__sectiontitle {
+    font-family: "Homemade Apple", cursive;
+    font-size: 19px;
+    margin-top: 1.5rem;
+  }
+
+  .pages__subtitle {
+    font-family: "Uchen", serif;
+    font-size: 25px;
+  }
+
+  .pages__infotext,
+  .pages__text,
+  .pages__todoitem,
+  .pages__link {
+    text-decoration: none;
+    font-size: 14pt;
+    font-family: Helvetica;
+    color: var(--font-color);
+    background: var(--bg-color);
+    line-height: 1.6;
+    hyphens: auto;
+    margin-bottom: 2rem;
+  }
+
+  .pages__text {
+    text-align: justify;
+  }
+
+  .pages__link {
+    margin: auto;
+  }
+
+  .pages__todoitem {
+    margin: auto;
+  }
+
+  .pages__listitem {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 3rem;
+  }
+
+  .pages__divider,
+  .pages__divider180 {
+    margin: auto;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+
+  .pages__divider img,
+  .pages__divider180 img,
+  .pages__divider-xs {
+    object-fit: cover;
+    width: 70%;
+    height: 5rem;
+    margin: auto;
+  }
+  .pages__divider-xs img {
+    width: 40%;
+  }
+
+  .pages__divider180 img {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .pages__subtitle img {
+    width: 5%;
+  }
 }
