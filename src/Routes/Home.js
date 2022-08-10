@@ -10,7 +10,7 @@ function Home() {
         <h2 className="pages__sectiontitle"> Välkomna på bröllop</h2>
         <p className="pages__text">
           Om en vecka gifter vi oss på Skadevi Gård och vi önskar dela dagen med
-          er. Hoppas att ni kommer och firar vår dag med oss.
+          er. Hoppas att ni kommer och firar dagen med oss.
         </p>
         <div className="pages__divider180">
           <img src="https://i.pinimg.com/474x/70/57/44/7057443a8c04006983551c91496f954a.jpg" />
@@ -29,8 +29,8 @@ function Home() {
         <p className="pages__infotext">Sommarfin</p>
         <h1 className="pages__subtitle">Gåva</h1>
         <p className="pages__infotext">
-          Er närvaro är allt vi önskar oss. Vill ni ändå uppmärksamma vår dag
-          med en gåva uppskattar vi ett litet bidrag till vår bröllopsresa.
+          Er närvaro är allt vi önskar oss i present. För er som ändå vill ge
+          något uppskattar vi ett litet bidrag till vår bröllopsresa.
         </p>
         <div className="pages__divider">
           <img src="https://i.pinimg.com/474x/70/57/44/7057443a8c04006983551c91496f954a.jpg" />

@@ -9,7 +9,7 @@ function About() {
         <h2 className="pages__sectiontitle"> Skadevi Gård</h2>
         <p className="pages__infotext">
           Ni är varmt välkomna att titta in tidigare på lördag för att ta del av
-          allt som finns i området som t.ex. bad i närliggande sjö, tennis,
+          det som finns i området som t.ex. bad i närliggande sjö, tennis,
           biljard eller bara för att packa upp och ställa in er i era rum.
         </p>
         <div className="pages__divider180">
