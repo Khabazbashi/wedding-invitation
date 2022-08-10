@@ -7,7 +7,7 @@ function About() {
 
       <div className="pages__body">
         <h2 className="pages__sectiontitle"> Skadevi Gård</h2>
-        <p className="pages__text">
+        <p className="pages__infotext">
           Ni är varmt välkomna att titta in tidigare på lördag för att ta del av
           allt som finns i området som t.ex. bad i närliggande sjö, tennis,
           biljard eller bara för att packa upp och ställa in er i era rum.
@@ -19,6 +19,7 @@ function About() {
         <p className="pages__todoitem">
           För övernattande gäster kommer dörren till era rum vara markerade med
           namn och mer information kommer att hittas vid ingången till huset.
+          Utcheckning är klockan 11:00 på söndag.
         </p>
         <div className="pages__divider-xs">
           <img src="https://media.istockphoto.com/vectors/fly-icon-doodle-vector-id1089310040?k=20&m=1089310040&s=612x612&w=0&h=LZgGxTm9-rfM90TbBmpAy1fe_Y6l3-Qx1aj6lA5phAY=" />
